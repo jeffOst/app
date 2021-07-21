@@ -1,0 +1,147 @@
+html{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: #9AD1ED;
+}
+
+.container{
+    max-width: 450px;
+    height: auto;
+    background-color: #EFEFEF;
+    margin: auto;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+    
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0 1rem;
+    border-radius: 50px;
+    border-top: solid .6rem #F39B53;
+    margin-bottom: 1rem;
+}
+
+.titulo h1{
+    font-weight: bold;
+    color: #CAC8C8;
+    font-size: 28px;
+}
+
+h1 span{
+    color: #F39B53;
+}
+
+.form_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input, .btn_submit{
+    background-color: #EFEFEF;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+    transition: all .2s;
+}
+
+.input:focus {
+    border-bottom: solid #F39B53 .2rem;
+}
+
+.btn_submit{
+  
+    border-bottom: none;
+    background-color: #31B1E5;
+    color: white;
+}
+
+.btn_submit:hover {
+    transition: 1s;
+    background-color: green;
+}
+
+#registrar{
+    text-decoration: none;
+    color: #369DD4;
+}
+
+/*----------------------*/
+/* REGISTRO */
+.containerReg{
+    max-width: 50%;
+    height: auto;
+    background-color: #EFEFEF;
+    margin: auto;
+    padding-bottom: 1rem;
+    border-radius: 50px;
+}
+
+.form_reg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+div .alinear{
+    width: 80%;
+    margin: auto;                   
+    display: flex;
+    justify-content: space-around;  
+    padding: 10px;  
+}
+
+#cancelar input{
+    background-color: #EFEFEF;
+    padding: .5rem;
+    width: 40%;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+    transition: all .2s;
+
+}
+
+#cancelar input{
+  
+    border-bottom: none;
+    background-color: #31B1E5;
+    color: white;
+}
+
+#cancelar input:hover {
+    transition: 1s;
+    background-color: red;
+}
+
+
+#agregar{
+    background-color: #EFEFEF;
+    padding: .5rem;
+    width: 40%;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #C8C8C8 .2rem;
+    transition: all .2s;
+
+}
+
+#agregar{
+  
+    border-bottom: none;
+    background-color: #31B1E5;
+    color: white;
+}
+
+#agregar:hover {
+    transition: 1s;
+    background-color: green;
+}

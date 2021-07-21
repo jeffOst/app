@@ -1,0 +1,195 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: comic sans ms;
+	background-color: #eee;
+  
+}
+
+#cabecera {
+	background-color: black;
+	padding: 20px;
+}
+
+#cabecera ul li {
+	list-style: none;
+	display: inline;
+}
+
+#cabecera ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+footer{
+  background-color: #29AACF;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  font-size: 18px;
+  color:white;
+}
+
+h1{
+	text-align: center;
+	padding: 20px;
+}
+
+form{
+	padding: 50px;
+}
+
+caption{
+  color: white;
+  background-color: #020224;
+  border: 1px #020224 solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 15px;
+}
+
+table{    
+ font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 15px;   
+  margin: auto;     
+  width: 45%;
+  text-align: center;    
+  border-collapse: collapse;
+
+}
+
+
+
+td {
+  border: 1px #020224 dotted;
+  padding: 13px;
+}
+
+tr:nth-child(even){
+  background-color: #EAF2F8;
+}
+tr:nth-child(odd){
+  background-color: #7FB3D5;
+}
+
+
+
+.inputUser{
+  background-color: #E9E9E9;
+  color:#929D9F;
+
+} 
+
+input{
+  width:80%;padding:8px;
+  box-sizing:border-box;
+  background:White;
+  outline:none;
+  resize:none;
+  border:0;
+  font-family:'Montserrat',
+  sans-serif;transition:all .3s;border-bottom:2px solid #bebed2;
+}
+
+input:focus{
+  border-bottom:2px solid #78788c
+}
+
+#btnGuardar{
+	cursor: pointer;
+}
+
+.liDerecha{
+  position: absolute;
+  right: 20px;
+
+}
+
+
+
+#avatar{
+  padding: 1%;
+  width: 15%;
+}
+
+#textoMain{
+    width: 35%;
+    margin: auto;                   
+    display: flex;
+    justify-content: space-around;  
+    padding: 10px;  
+
+}
+
+#textoAyuda{
+    width: 50%;
+    margin: auto;                   
+  
+    padding: 10px;  
+
+}
+
+#imgServicio{
+  
+  padding: 1%;
+  
+}
+
+#imgAyuda{
+  padding: 18px;
+  width: 35%;
+}
+
+
+#textoServicio{
+    width: 50%;
+    margin: auto;                   
+    
+    
+}
+
+
+hr {
+  height: 8px;
+  width: 45%;
+  background-color: black;
+}
+
+
+.ventana{
+ background-color: #29AACF;
+ width: 30%;
+ color:white;
+ font-size: 18px;
+ text-align: center;
+ padding: 33px;
+ min-height: 250px;
+ border-radius: 22px;
+ position: absolute;
+ left: 32%;
+ display: none;
+ top: 15%;
+  
+}
+
+
+.ventana a{
+  color: white;
+  text-decoration: none;
+
+}
+
+
+#mostrar{
+  padding: 8px;  
+}
+#mostrar a{
+  text-decoration: none;
+  color: #29AACF;
+
+}
